@@ -1,0 +1,175 @@
+html,
+body{
+  height: 100%;
+  height: 100%;
+  font-family: "Lato";
+}
+/*-----------nav-----------------*/
+.logoLift{
+  width: 100px;
+  padding-top: 20px;
+}
+@media (max-width: 768px) {
+  .logoLift{
+    width: 11em;
+    padding-top: 80px;
+  }
+}
+/*-------------header-------------*/
+header{
+  background: url("../image/large.jpg");
+  background-size: cover; 
+  background-attachment: scroll;
+  background-position: center; 
+  min-height: auto;
+  color: white;
+  height: 100%;
+}
+.header2{
+  width: 100%;
+}
+.caja{
+  margin: 0;
+  color:  white;  
+}
+.intro{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 55px;
+    text-align: center;
+}
+.boton1 {
+    color: white;
+    background-color: transparent;
+    border-color: #ccc;
+}
+.botonInicio {
+    padding: 12px;   
+}
+.btn-color{
+  background-color: #dd2c00;
+  color: white;
+}
+.btn-color:hover{
+  text-decoration: none;
+  color: white;
+}
+/*----------seccion 1------*/
+ .seccion1{
+  padding:30px 0px;
+  text-align: center;
+ }
+ .seccion1 h3{
+  text-align: center;
+  font-weight: 600;
+ }
+ .iconoLeft{
+  position: absolute;
+    left: 9%;
+    font-size: 34px;
+    top: 7%;
+ }
+.linea{
+  border-bottom: 1px solid #c3c3c3;
+  margin-bottom: 20px;
+}
+.elegirImg {
+    vertical-align: middle;
+    width: 18px;
+
+   }
+.btn .caret {
+    margin-left: 11px;
+}
+.inputIngreso{
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.formshadow{
+  box-shadow: none;
+  border-left: none;
+}
+.formshadow:focus{  
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: lightgrey;
+}
+.BntNext {
+    color: white;
+    font-size: 24px;
+    background-color: darkred;
+    padding: 15px 0px;
+    display: block;
+    margin: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.BntNext:hover, .BntNext:focus {
+    color:white; 
+    text-decoration: none; 
+}
+.cajaRegistro{
+  margin-left: 0px;
+  margin-right: 0px; 
+}
+/*tercera pagina */
+.ingreseName{
+  width: 45%;
+    display: inline;
+    border: transparent;
+    padding: 8px 0px;
+}
+.contenedorInput{
+  border: 1px solid #c3c3c3;
+    border-radius: 5px;
+}
+.iconoUser{
+  padding-right: 6px;
+  padding-left: 2px;
+}
+.ingreseName:focus{ 
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: lightgrey;
+}
+.ingreseEmail{
+  width: 90%;
+    display: inline;
+    border: transparent;
+    padding: 8px 0px;
+}
+.ingreseEmail:focus{  
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: lightgrey;
+}
+.CheckTermino{
+  color:  #dd2c00;
+}
+/*verificaion*/
+.codigo{
+    border: transparent;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    display: inline-block;
+    width: 12%;
+    box-shadow: none;
+}
+.codigo:focus{
+  outline: -webkit-focus-ring-color auto 0px;
+  outline-style: none;
+  box-shadow: none;
+  border-color: lightgrey;
+}
+.display{
+  display: inline-block;
+}
