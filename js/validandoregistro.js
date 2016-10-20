@@ -36,6 +36,7 @@ $("#nextRegister").click(function(){
                 }
                 else{
                     $(this).attr("href","mapa.html");
+                    localStorage.setItem("name",nombre);
                 }
             }
         }

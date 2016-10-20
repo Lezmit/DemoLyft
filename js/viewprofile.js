@@ -7,6 +7,8 @@ $(document).ready(function () {
 
 	function openNav() {
 	    document.getElementById("mySidenav").style.width = "250px";
+	    var nameRecibido = localStorage.getItem("name");
+        $("#profileName").text(nameRecibido);
 	}
 
 	function closeNav() {
