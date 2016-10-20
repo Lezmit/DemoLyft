@@ -35,7 +35,7 @@ $("#nextRegister").click(function(){
                     alert("Acepta nuestro termino de condiciones para continuar");
                 }
                 else{
-                    $(this).attr("href","index.html");
+                    $(this).attr("href","mapa.html");
                 }
             }
         }

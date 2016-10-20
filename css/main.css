@@ -121,7 +121,7 @@ header{
 }
 /*tercera pagina */
 .ingreseName{
-    width: 45%;
+    width: 43%;
     display: inline;
     border: transparent;
     padding: 8px 0px;
@@ -141,7 +141,7 @@ header{
   border-color: lightgrey;
 }
 .ingreseEmail{
-  width: 90%;
+  width: 88%;
     display: inline;
     border: transparent;
     padding: 8px 0px;
@@ -161,7 +161,7 @@ header{
     border-bottom: 1px solid black;
     border-radius: 0px;
     display: inline-block;
-    width: 12%;
+    width: 14%;
     box-shadow: none;
 }
 .codigo:focus{
