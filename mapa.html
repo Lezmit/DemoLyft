@@ -8,12 +8,64 @@
 	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	  	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900,300,100" rel="stylesheet" type="text/css">
 	  	<link rel="stylesheet" type="text/css" href="css/main.css">
+	  	<link rel="stylesheet" type="text/css" href="css/viewprofile.css">
 	</head>
 	<body>
 	<section id="section1">
+		<div id="mySidenav" class="sidenav">
+            <div class="profile-userpic">
+                <img src="http://blogs.icemd.com/blog-customer-experience-en-mobile/wp-content/uploads/sites/814/2016/09/ux.jpg" width="50px"  alt="fotoUsuario">
+            </div>
+            <div class="profile-usertitle">
+                <div class="profile-usertitle-name">
+                    Marcus Doe
+                </div>
+                <div class="profile-usertitle-job">
+                    <a  class="linkViewProfile" href="#">View Profile</a>
+                </div>
+            </div>           
+            <a id="close" href="#" class="closebtn" >&times;</a>
+                <ul class="nav">
+                    <li class="active">
+                        <a href="#">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Home </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-gift" aria-hidden="true"></i>
+                        Free </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-history" aria-hidden="true"></i>
+                        Tasks </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        Payment</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-question" aria-hidden="true"></i>
+                        Help </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        Settings </a>
+                    </li>
+                     <li >
+                        <a href="#" class="colorsign">
+                        <i class="fa fa-renren" aria-hidden="true"></i>
+                        Sign up to drive </a>
+                    </li>
+                </ul>
+        </div> <!-- END MENU -->
 		<div class="row">
 			 <div class="col-xs-offset-1 col-xs-2 col-md-offset-1 col-md-2">
-				 <i class="fa fa-user iconosMap sizeIcono" aria-hidden="true"></i>
+				 <i id="hamburger" class="fa fa-user iconosMap sizeIcono" aria-hidden="true"></i>
 			 </div>
 			 <div class=" col-xs-6 col-md-6 text-center">
 			 	<img class="iconosMap sizelogo" src="image/logo.png"></a>
@@ -31,6 +83,6 @@
 	<script type="text/javascript" src="js/jquery.js" ></script>	
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/geolocalizacion.js"></script>
-	
+	<script type="text/javascript" src="js/viewprofile.js"></script>
     </body>
 </html>
